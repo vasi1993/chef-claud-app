@@ -122,5 +122,14 @@ ul.ingredients-list > li {
     main {
         padding: 30px 1rem 10px;
     }
+
+    .get-recipe-container{
+        padding: 5px 15px;
+    }
+
+    .get-recipe-container p {
+        
+        line-height: 21px;
+    }
     
 } 
