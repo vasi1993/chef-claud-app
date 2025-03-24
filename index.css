@@ -6,6 +6,7 @@ body {
     margin: 0;
     font-family: Inter, sans-serif;
     background-color: #FAFAF8;
+   
 }
 
 header {
@@ -16,6 +17,7 @@ header {
     height: 80px;
     background-color: white;
     box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.06);
+    
 }
 
 header > img {
@@ -27,7 +29,7 @@ header > h1 {
 }
 
 main {
-    padding: 30px 30px 10px;
+    padding: 30px 6rem 10px;
 }
 
 .add-ingredient-form {
@@ -115,3 +117,10 @@ ul.ingredients-list > li {
 .suggested-recipe-container ul li, .suggested-recipe-container ol li {
     margin-bottom: 8px;
 }
+
+@media(max-width:500px){
+    main {
+        padding: 30px 2rem 10px;
+    }
+    
+} 
